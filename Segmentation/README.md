@@ -1,6 +1,6 @@
 Road Semantic Segmentation Project
 
-![Road](images/road.gif)
+![Road](road.gif)
 
 # Overview
 
@@ -43,13 +43,13 @@ The network is trained using the [`train_nn`](./main.py#L140) (from line 140 to 
 The dataset used for training the network was
 The network training was done for 6, 12, 24 and 48 epochs. The following graphs show the loss after each epoch:
 
-![6 Epochs](images/loss_epoch_6.png)
+![6 Epochs](loss_epoch_6.png)
 
-![12 Epochs](images/loss_epoch_12.png)
+![12 Epochs](loss_epoch_12.png)
 
-![24 Epochs](images/loss_epoch_24.png)
+![24 Epochs](loss_epoch_24.png)
 
-![48 Epochs](images/loss_epoch_48.png)
+![48 Epochs](loss_epoch_48.png)
 
 The last epoch loss mean and standard deviation were:
 
@@ -64,36 +64,36 @@ It was fascinating to see how the segmentation improve when the epochs increase.
 
 ## 6 Epochs
 
-![um_000003](images/epoch6/um_000003.png)
-![um_000036](images/epoch6/um_000036.png)
-![umm_000014](images/epoch6/umm_000014.png)
-![umm_000031](images/epoch6/umm_000031.png)
-![uu_000026](images/epoch6/uu_000026.png)
-![uu_000047](images/epoch6/uu_000047.png)
+![um_000003](epoch6/um_000003.png)
+![um_000036](epoch6/um_000036.png)
+![umm_000014](epoch6/umm_000014.png)
+![umm_000031](epoch6/umm_000031.png)
+![uu_000026](epoch6/uu_000026.png)
+![uu_000047](epoch6/uu_000047.png)
 
 ## 12 Epochs
 
-![um_000003](images/epoch12/um_000003.png)
-![um_000036](images/epoch12/um_000036.png)
-![umm_000014](images/epoch12/umm_000014.png)
-![umm_000031](images/epoch12/umm_000031.png)
-![uu_000026](images/epoch12/uu_000026.png)
-![uu_000047](images/epoch12/uu_000047.png)
+![um_000003](epoch12/um_000003.png)
+![um_000036](epoch12/um_000036.png)
+![umm_000014](epoch12/umm_000014.png)
+![umm_000031](epoch12/umm_000031.png)
+![uu_000026](epoch12/uu_000026.png)
+![uu_000047](epoch12/uu_000047.png)
 
 ## 24 Epochs
 
-![um_000003](images/epoch24/um_000003.png)
-![um_000036](images/epoch24/um_000036.png)
-![umm_000014](images/epoch24/umm_000014.png)
-![umm_000031](images/epoch24/umm_000031.png)
-![uu_000026](images/epoch24/uu_000026.png)
-![uu_000047](images/epoch24/uu_000047.png)
+![um_000003](epoch24/um_000003.png)
+![um_000036](epoch24/um_000036.png)
+![umm_000014](epoch24/umm_000014.png)
+![umm_000031](epoch24/umm_000031.png)
+![uu_000026](epoch24/uu_000026.png)
+![uu_000047](epoch24/uu_000047.png)
 
 ## 48 Epochs
 
-![um_000003](images/epoch48/um_000003.png)
-![um_000036](images/epoch48/um_000036.png)
-![umm_000014](images/epoch48/umm_000014.png)
-![umm_000031](images/epoch48/umm_000031.png)
-![uu_000026](images/epoch48/uu_000026.png)
-![uu_000047](images/epoch48/uu_000047.png)
+![um_000003](epoch48/um_000003.png)
+![um_000036](epoch48/um_000036.png)
+![umm_000014](epoch48/umm_000014.png)
+![umm_000031](epoch48/umm_000031.png)
+![uu_000026](epoch48/uu_000026.png)
+![uu_000047](epoch48/uu_000047.png)
