@@ -1,6 +1,4 @@
 ## Advanced Lane Finding
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
-
 The goals / steps of this project are the following:
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
@@ -25,10 +23,6 @@ The goals / steps of this project are the following:
 [image9]: ./output_images/final_image.jpg "Final Image"
 [video1]: ./project_output.mp4 "Video"
 
-## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
-###Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
-
----
 ###Writeup / README
 
 ####1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  [Here](https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/writeup_template.md) is a template writeup for this project you can use as a guide and a starting point.  
@@ -162,8 +156,6 @@ Here is the output of the above pipeline on a specific frame of the video -
 
 ![alt text][image9]
 
----
-
 ###Pipeline (video)
 
 ####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
@@ -183,7 +175,3 @@ There are several ways to make this more robust -
 * A better Class structure for each Lane Line to help keep track of previous N frames.
 * Better tuning for gradient based thresholding, exploring different colorspaces.
 * Improved perspective transform by not hardcoding the source and destination points. One option is to use hough's transform to identify lanes in a test image and use their end points.
-
-
-
-
