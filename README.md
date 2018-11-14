@@ -32,8 +32,6 @@ The code for this step is contained in the `camera_calibration.ipynb` Jupyter No
 In `Code Cell 2` of this notebook, I define the number of inner corners (9x6) in the chessboards by visual inspection. After reading in the chessboard images using python's `glob`
 library, each image is converted to grayscale and passed to OpenCV's `findChessboardCorners` function which outputs the corners of each square (inner) in the chessboard.
 
-[The following explanation is provided by Udacity and explains the process quite well]
-
 For every image, two lists, `objpoints` and `imgpoints` are updated. 
 
 The `objpoints` contains the (x, y, z) coordinates of the chessboard corners in the world. 
